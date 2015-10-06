@@ -1,0 +1,72 @@
+/*
+	GENERAL
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	overflow-y: scroll;
+}
+body { 
+	font: 14px Georgia, Serif; 
+	background: #444;
+}
+#main-content { 
+	width: 90%; 
+	min-width: 800px; 
+	margin: 20px auto; 
+	padding: 20px; 
+	background: white; 
+	-moz-border-radius: 20px; 
+	-moz-box-shadow: #222 5px 5px 5px; 
+	-webkit-border-radius: 20px; 
+	-webkit-box-shadow: #222 5px 5px 5px; 
+	position: relative; 
+}
+
+#facet{
+	float:left;
+	width:25%;
+}
+#map{
+	float:left;
+	width:70%;
+	padding-right:5%;
+
+}
+#location-facets{
+	float:left;
+	width:100%;
+}
+#region-facet{
+	float:left;
+	padding-right:2.5%;
+	width:30%;
+}
+#comuna-facet{
+	float:left;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	width:30%;
+}
+#dependencia-facet{
+	float:left;
+	padding-left:2.5%;
+	width:30%;
+}
+
+.info, .success, .warning, .error, .validation {
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('Info.png');
+}
+
